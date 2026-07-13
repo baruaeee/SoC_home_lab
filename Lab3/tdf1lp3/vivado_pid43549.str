@@ -1,0 +1,173 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:04:56 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 43549
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Jul 13 13:16:02 CEST 2026
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Rocky Linux release 9.8 (Blue Onyx)
+OS Version: 5.14.0-687.17.1.el9_8.x86_64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: 0
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	/home/ipad/Vivado/Vivado/2023.1/tps/lnx64/jre17.0.3_7
+Java executable: 	/home/ipad/Vivado/Vivado/2023.1/tps/lnx64/jre17.0.3_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	exotic
+User home directory: /home/ipad
+User working directory: /home/ipad/SoC_Lab/Lab3/tdf1lp3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/ipad/Vivado/Vivado
+HDI_APPROOT: /home/ipad/Vivado/Vivado/2023.1
+RDI_DATADIR: /home/ipad/Vivado/Vivado/2023.1/data
+RDI_BINDIR: /home/ipad/Vivado/Vivado/2023.1/bin
+
+Vivado preferences file: /home/ipad/.Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: /home/ipad/.Xilinx/Vivado/2023.1/
+Vivado layouts directory: /home/ipad/.Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	/home/ipad/Vivado/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/ipad/SoC_Lab/Lab3/tdf1lp3/vivado.log
+Vivado journal file: 	/home/ipad/SoC_Lab/Lab3/tdf1lp3/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-43549-exotic
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /home/ipad/Vivado/Vivado/2023.1
+RDI_BASEROOT: /home/ipad/Vivado/Vivado
+RDI_BINROOT: /home/ipad/Vivado/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/ipad/Vivado/Vivado/2023.1/data
+RDI_INSTALLROOT: /home/ipad/Vivado
+RDI_INSTALLVER: 2023.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: /home/ipad/Vivado/Vivado/2023.1/lib/lnx64.o/Default:/home/ipad/Vivado/Vivado/2023.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/ipad/Vivado/Vitis/2023.1/bin:/home/ipad/Vivado/Vivado/2023.1/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/ipad/Vivado/Vivado/2023.1/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/ipad/SoC_Lab/Lab3/tdf1lp3:exotic_1783941342_43465
+RDI_SHARED_DATA: /home/ipad/Vivado/SharedData/2023.1/data
+RDI_TPS_ROOT: /home/ipad/Vivado/Vivado/2023.1/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /home/ipad/Vivado/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: /home/ipad/Vivado/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: /home/ipad/Vivado/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: /home/ipad/Vivado/Vivado/2023.1
+XILINX_SDK: /home/ipad/Vivado/Vitis/2023.1
+XILINX_VITIS: /home/ipad/Vivado/Vitis/2023.1
+XILINX_VIVADO: /home/ipad/Vivado/Vivado/2023.1
+XILINX_VIVADO_HLS: /home/ipad/Vivado/Vivado/2023.1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,379 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: /home/ipad/SoC_Lab/Lab3/tdf1lp3/tdf1lp3.xpr. Version: Vivado v2023.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/ipad/SoC_Lab/Lab3/tdf1lp3/tdf1lp3.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,442 MB. GUI used memory: 65 MB. Current time: 7/13/26, 1:16:03 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 117 MB (+120413kb) [00:00:22]
+// [Engine Memory]: 1,669 MB (+1598253kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  3125 ms.
+// Tcl Message: open_project /home/ipad/SoC_Lab/Lab3/tdf1lp3/tdf1lp3.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/mueller/SOCL1/tdf1lp3' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ipad/SoC_Lab/Lab3/tdf1lp3/ip_repo/iir3lowpass_1_0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ipad/SoC_Lab/Lab3/tdf1lp3/ip_repo/iir3lowpass_1_0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/ipad/Vivado/Vivado/2023.1/data/ip'. 
+// Project name: tdf1lp3; location: /home/ipad/SoC_Lab/Lab3/tdf1lp3; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:15 . Memory (MB): peak = 7941.496 ; gain = 354.711 ; free physical = 1210 ; free virtual = 9559 
+dismissDialog("Open Project"); // bq
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,757 MB. GUI used memory: 69 MB. Current time: 7/13/26, 1:16:18 PM CEST
+// [Engine Memory]: 1,757 MB (+5433kb) [00:00:29]
+// PAPropertyPanels.initPanels (zedblp3.bd) elapsed time: 0.2s
+// Elapsed time: 120 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zedblp3 (zedblp3.bd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zedblp3 (zedblp3.bd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, zedblp3 (zedblp3.bd), zedblp3_iir3lowpass_0_0 (zedblp3_iir3lowpass_0_0.xci)]", 2, false, false, false, false, false, true); // E - Double Click
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 134 MB (+11070kb) [00:02:28]
+// Tcl Message: open_bd_design {/home/ipad/SoC_Lab/Lab3/tdf1lp3/tdf1lp3.srcs/sources_1/bd/zedblp3/zedblp3.bd} 
+// Tcl Message: Reading block design file </home/ipad/SoC_Lab/Lab3/tdf1lp3/tdf1lp3.srcs/sources_1/bd/zedblp3/zedblp3.bd>... Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 Adding component instance block -- xilinx.com:user:iir3lowpass:1.0 - iir3lowpass_0 Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M Successfully read diagram <zedblp3> from block design file </home/ipad/SoC_Lab/Lab3/tdf1lp3/tdf1lp3.srcs/sources_1/bd/zedblp3/zedblp3.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1485 ms.
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+dismissDialog("Open Block Design"); // bq
+// WARNING: HTimer (Open addressing views timer) is taking 93ms to process. Increasing delay to 1300 ms.
+// [GUI Memory]: 142 MB (+1662kb) [00:02:31]
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+// HMemoryUtils.trashcanNow. Engine heap size: 1,777 MB. GUI used memory: 74 MB. Current time: 7/13/26, 1:18:28 PM CEST
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // g
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// [GUI Memory]: 153 MB (+4603kb) [00:02:58]
+// Elapsed time: 18 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 209, 106, 638, 260, false, false, false, true, false); // fQ - Popup Trigger
