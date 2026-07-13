@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/zedblp3/ipshared/f794/hdl/iir3lowpass_v1_0_S00_AXI.vhd" \
+"../../../bd/zedblp3/ipshared/f794/hdl/iir3lowpass_v1_0.vhd" \
+"../../../bd/zedblp3/ip/zedblp3_iir3lowpass_0_0/sim/zedblp3_iir3lowpass_0_0.vhd" \
+"../../../bd/zedblp3/ip/zedblp3_rst_ps7_0_50M_0/sim/zedblp3_rst_ps7_0_50M_0.vhd" \
+"../../../bd/zedblp3/sim/zedblp3.vhd" \
+
+# Do not sort compile order
+nosort
